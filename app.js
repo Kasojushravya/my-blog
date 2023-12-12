@@ -6,7 +6,7 @@ app.use(express.static('public'));
 
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://kasojushravya:shravya178@cluster0.si7kjs2.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://mainamkrupa145:mainam krupa 145@cluster0.0ue2y1o.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Create Post model
 const Post = mongoose.model('Post', {
